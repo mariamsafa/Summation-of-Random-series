@@ -1,4 +1,3 @@
-/*
 //Summation of 1/1^2 + 1/2^2 + 1/3^2 +....+1/N^2 series
 #include<stdio.h>
 #include<math.h>
@@ -17,6 +16,8 @@ int main()
 
 	return 0;
 }
+
+
 
 //summation of 1/1^1 + 1/2^2 + 1/3^3 +....+1/N^N series
 #include<stdio.h>
@@ -37,6 +38,8 @@ int main()
 	return 0;
 }
 
+
+
 //summation of 10^2 + 20^2 + 30^2 +....+N^2 series
 #include<stdio.h>
 #include<math.h>
@@ -55,7 +58,9 @@ int main()
 
 	return 0;
 }
-*/
+
+
+
 //summation of 100^2+95^2+90^2+.....+N^2
 #include<stdio.h>
 #include<math.h>
