@@ -56,7 +56,7 @@ int main()
 	return 0;
 }
 */
-//summation of 100^2+95^2+90^2+.....+
+//summation of 100^2+95^2+90^2+.....+N^2
 #include<stdio.h>
 #include<math.h>
 int main()
@@ -65,7 +65,7 @@ int main()
 	double sum = 0;
 	printf("Enter the number : ");
 	scanf_s("%d", &n);
-	for (i = 10; i <= n; i += 10)
+	for (i = 100; i >= n; i -= 5)
 	{
 		sum = sum + pow(i, 2);
 	}
